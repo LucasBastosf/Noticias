@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "7a36ae90-751e-477b-a013-5701e7d91285",
+		"name": "Implementations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17340090"
+	},
+	"item": [
+		{
+			"name": "Salvar cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Lucas\",\r\n    \"email\": \"lucasfbastos1987@gmail.com\",\r\n    \"nascimento\": \"2023-07-03T17:00\"\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Salvar noticia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"descricao\": \"teste\",\r\n    \"titulo\": \"teste\",\r\n    \"link\": \"teste\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/noticias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"noticias"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
